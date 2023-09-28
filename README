@@ -1,0 +1,5 @@
+This repo contains a basic configuration for the `zsh` shell.
+
+1. 'ZDOTDIR' must be set to the path of the this repo. This can be done in '.zshenv', where '.zshenv' is located in '$HOME' (e.g. 'ZDOTDIR=$HOME/.zsh')
+2. '.zlogin' is added to '.gitignore' - it can be used for additional configs without branching from the repo. NOTE: '.zlogin' is executed after '.zshrc' and therefore a duplicate setting would be overritten.
+3. To change the default shell to zsh run 'chsh -s /bin/zsh'
