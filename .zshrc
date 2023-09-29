@@ -1,3 +1,6 @@
+## PROMPT FORMAT
+PS1='%n@%m %~$ '
+
 ## ALIASES
 alias ll='ls -lAG'
 
