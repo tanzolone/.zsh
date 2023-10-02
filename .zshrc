@@ -28,9 +28,6 @@ setopt HIST_FIND_NO_DUPS
 setopt HIST_REDUCE_BLANKS
 
 ## CONFIG: Misc
-# Auto correct
-setopt CORRECT
-setopt CORRECT_ALL
 # Make glob case insensitive
 setopt NO_CASE_GLOB
 
